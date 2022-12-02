@@ -8,5 +8,5 @@ import "fmt"
 
 // implementing a main function to print a message to the console. a "main" function executes by default when you run the main package
 func main() {
-	fmt.Println("Hello world!")
+	fmt.Println("Hello Go!")
 }
