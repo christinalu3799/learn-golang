@@ -47,9 +47,15 @@ func main() {
 	// after
 	fmt.Printf("%v, %T\n", l, l)
 	// ======================= CONVERTING INT TO ASCII ===========================
-	var m string
+	var a string
 	// need to import strconv package to properly do this!
-	m = strconv.Itoa(i)
+	a = strconv.Itoa(i)
+	fmt.Printf("%v, %T\n", a, a)
+	// ============================= BOOLEAN =====================================
+	// everytime you initialize a value in Go, the initial value is zero (which is false)
+	n := 1 == 1
+	m := 1 == 2
+	fmt.Printf("%v, %T\n", n, n)
 	fmt.Printf("%v, %T\n", m, m)
 
 }
